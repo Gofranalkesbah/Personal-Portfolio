@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Gofran Al-Kesbah | Full Stack .NET Developer Portfolio</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="assets/css/meyawo.css">
+    <style>
+        .skills-pill-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.skill-pill {
+    background-color: #f1f1f1;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.skill-pill:hover {
+    background-color: #5B279C;
+    color: white;
+}
+
+.service-card {
+  min-height: 330px; /* Increase the height slightly */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.service-card .subtitle {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.course-card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+/* Footer fix */
+.footer {
+    background: #f8f9fa;
+    padding: 30px 0;
+    border-top: 1px solid #dee2e6;
+    margin-top: auto;
+    font-size: 15px;
+}
+
+.footer .social-links a {
+    font-size: 20px;
+    margin-left: 15px;
+    color: #495057;
+    transition: color 0.3s;
+}
+
+.footer .social-links a:hover {
+    color: #007bff;
+}
+
+@media (max-width: 768px) {
+    .footer .text-right {
+        text-align: left !important;
+        margin-top: 15px;
+    }
+}
+
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#">Gofran Al-Kesbah</a>
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                 <li class="item">
+                    <a class="link" href="#skills">Skills</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#contact">Contact</a>
+                </li>
+                <li class="item ml-md-3">
+                    <a href="components.html" class="btn btn-primary">Components</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>
+    </nav><!-- End of Page Navbar -->
+
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">HI!</span>
+                <span class="down">I am Gofran Al-Kesbah</span>
+            </h1>
+            <p class="header-subtitle"> Full Stack .NET Developer</p>
+
+            <a href="#portfolio" class="btn btn-primary">Visit My Works</a>
+            
+        </div>
+    </header><!-- end of page header -->
+
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <!-- <div class="about-img-holder">
+                    <img src="assets/imgs/cv.jpeg" class="about-img" height="600px" width="300px" >
+                </div> -->
+                <div class="about-caption">
+                    <p class="section-subtitle">Who Am I ?</p>
+                    <h2 class="section-title mb-3">About Me</h2>
+                    <p>
+                       a passionate Full Stack .NET Developer based in Amman, Jordan. I specialize in developing modern, user-focused web applications with expertise in both front-end and back-end technologies.
+
+                       My skill set includes .NET, SQL Server, Web API, and modern front-end tools. I enjoy turning ideas into efficient, scalable solutions while always striving to write clean, maintainable code.
+
+                       I’m driven by curiosity, problem-solving, and continuous learning. I thrive in collaborative environments and love building projects that create real value for users.
+
+                        Outside of coding, I enjoy exploring new technologies, enhancing my skills through online courses, and working on personal development projects.</p>
+        
+                    </p>
+                    <a href="assets\CV Gofran_Al-kesbah.pdf" download class="btn-rounded btn btn-outline-primary mt-4">Download CV</a>
+
+                </div>
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
+
+
+     <section id="education" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Education</h2>
+      <ul class="list-group">
+        <li class="list-group-item">
+          Bachelor of Software Engineering - The Hashemite University, September 2015 – August 2019
+        </li>
+        <!-- Add other education details if needed -->
+      </ul>
+    </div>
+  </section>
+
+                 <!-- experience section -->
+<section class="section" id="experience">
+    <div class="container text-center">
+        <div class="about">
+            <div class="about-caption m-auto">
+                <p class="section-subtitle">Where I've Worked</p>
+                <h2 class="section-title mb-3">Experience</h2>
+
+                <!-- Experience 1 -->
+                <p>
+                    <strong>Internship Full Stack Developer</strong><br>
+                    AppTrainers – Amman, Jordan<br>
+                    December 2024 – June 2025
+                </p>
+                <p>
+                    AppTrainers is a mobile and web application development company specializing in iOS, Android, and cross-platform solutions.
+                </p>
+                <ul style="text-align: left; display: inline-block;">
+                    <li>Developed responsive web apps using C# and ASP.NET Core.</li>
+                    <li>Built and optimized SQL Server databases for various modules.</li>
+                    <li>Implemented front-end features using Angular.</li>
+                    <li>Applied OOP principles and design patterns in real-world scenarios.</li>
+                    <li>Collaborated in an agile environment with code reviews and sprints.</li>
+                </ul>
+
+                <!-- Experience 2 -->
+                <p class="mt-4">
+                    <strong>Training – Web Applications</strong><br>
+                    JUST CLICK SOLUTIONS (JCS) – Amman, Jordan<br>
+                    June 2018 – August 2018
+                </p>
+                <p>
+                    Just Click Solutions is a Jordan-based company providing web/mobile development, IT solutions, cybersecurity, and digital marketing.
+                </p>
+                <ul style="text-align: left; display: inline-block;">
+                    <li>Designed and implemented web layouts for newspapers and magazines.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+           <!-- skills section -->
+     <section class="section" id="skills">
+    <div class="container text-center">
+        <p class="section-subtitle">What I Do Best</p>
+        <h2 class="section-title mb-5">Skills</h2>
+
+        <div class="skills-pill-container" style="max-width: 900px; margin: auto;">
+            <span class="skill-pill">ASP.NET Web API</span>
+            <span class="skill-pill">C#</span>
+            <span class="skill-pill">ASP.NET Core</span>
+            <span class="skill-pill">SQL Server Management Studio</span>
+            <span class="skill-pill">Agile Methodologies</span>
+            <span class="skill-pill">Jira</span>
+            <span class="skill-pill">Bootstrap</span>
+            <span class="skill-pill">Visual Studio</span>
+            <span class="skill-pill">TypeScript</span>
+            <span class="skill-pill">HTML5</span>
+            <span class="skill-pill">JavaScript</span>
+            <span class="skill-pill">Problem Solving</span>
+            <span class="skill-pill">CSS3</span>
+            <span class="skill-pill">OOP</span>
+            <span class="skill-pill">Angular</span>
+            <span class="skill-pill">Postman API</span>
+            <span class="skill-pill">GitHub</span>
+            <span class="skill-pill">ADO.NET</span>
+            <span class="skill-pill">Language Integrated Query (LINQ)</span>
+            <span class="skill-pill">ASP.NET MVC</span>
+            <span class="skill-pill">Entity Framework</span>
+        </div>
+    </div>
+</section>
+
+
+    <!-- service section -->
+    <section class="section" id="service">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Do ?</p>
+            <h6 class="section-title mb-6">Service</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="https://img.icons8.com/ios-filled/50/000000/api-settings.png"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Web API Development</h6>
+                            <p class="subtitle">Designing and implementing RESTful APIs with .NET Web API to enable seamless 
+                                communication between frontend and backend systems or third-party services.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="https://img.icons8.com/ios-filled/50/000000/database.png"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Database Design and Management</h6>
+                            <p class="subtitle">Developing and maintaining relational databases using SQL Server,
+                                 including writing optimized queries, stored procedures, and ensuring data integrity.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="https://img.icons8.com/ios-filled/50/000000/server.png"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Backend Development</h6>
+                            <p class="subtitle">Building secure, scalable, and efficient server-side 
+                                applications using C# and .NET Core to handle business logic and data processing.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="https://img.icons8.com/ios-filled/50/000000/paint-palette.png"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Frontend Development</h6>
+                            <p class="subtitle">Creating responsive and intuitive user interfaces using modern web technologies like HTML, CSS, JavaScript,
+                                 and frameworks as Angular to deliver a smooth user experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end of row -->
+        </div>
+    </section><!-- end of service section -->
+
+    <!-- portfolio section -->
+<section class="section" id="portfolio">
+    <div class="container text-center">
+        <p class="section-subtitle">What I Did ?</p>
+        <h6 class="section-title mb-6">Portfolio</h6>
+
+        <!-- Row 1 -->
+        <div class="row">
+            <div class="col-md-6">
+                <a href="#" class="portfolio-card">
+                    <img src="assets/imgs/food.png" class="portfolio-card-img img-responsive rounded" style="height: 250px; width: 100%; object-fit: cover;">
+                    <span class="portfolio-card-overlay">
+                        <span class="portfolio-card-caption">
+                            <h4>Foodte Application</h4>
+                            <p class="font-weight-normal">Built the database and API for the system</p>
+                        </span>
+                    </span>
+                </a>
+            </div>
+            <div class="col-md-6">
+                <a href="#" class="portfolio-card">
+                    <img src="assets/imgs/E-commerce.webp" class="portfolio-card-img img-responsive rounded" style="height: 250px; width: 100%; object-fit: cover;">
+                    <span class="portfolio-card-overlay">
+                        <span class="portfolio-card-caption">
+                            <h4>Computergy</h4>
+                            <p class="font-weight-normal">Built the Web API for the system</p>
+                        </span>
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <a href="#" class="portfolio-card">
+                    <img src="assets/imgs/grad.jpeg" class="portfolio-card-img img-responsive rounded" style="height: 250px; width: 100%; object-fit: cover;">
+                    <span class="portfolio-card-overlay">
+                        <span class="portfolio-card-caption">
+                            <h4>HU Services & Alerts Portal</h4>
+                            <p class="font-weight-normal">Built the design and documentation for the project</p>
+                        </span>
+                    </span>
+                </a>
+            </div>
+            <div class="col-md-6">
+                <a href="#" class="portfolio-card">
+                    <img src="assets/imgs/ER Diagram.png" class="portfolio-card-img img-responsive rounded" style="height: 250px; width: 100%; object-fit: cover;">
+                    <span class="portfolio-card-overlay">
+                        <span class="portfolio-card-caption">
+                            <h4>Recorded Courses</h4>
+                            <p class="font-weight-normal">
+                                Designed and built a relational database for a recorded courses system with learners, instructors, and payment management.
+                            </p>
+                        </span>
+                    </span>
+                </a>
+            </div>
+        </div>
+
+<!-- Row 3 -->
+<div class="row mt-4">
+    <div class="col-md-6 mx-auto">
+        <a href="#" class="portfolio-card">
+            <img src="assets/imgs/Car.png" class="portfolio-card-img img-responsive rounded" style="height: 250px; width: 100%; object-fit: cover;">
+            <span class="portfolio-card-overlay">
+                <span class="portfolio-card-caption">
+                    <h4>Car Picker</h4>
+                    <p class="font-weight-normal">Built the backend and designed the database structure</p>
+                </span>
+            </span>
+        </a>
+    </div>
+</div>
+
+
+    </div><!-- end of container -->
+</section>
+
+    <!-- section -->
+    <section class="section-sm bg-primary">
+        <!-- container -->
+        <div class="container text-center text-sm-left">
+            <!-- row -->
+            <div class="row align-items-center">
+                <div class="col-sm offset-md-1 mb-4 mb-md-0">
+                    <h6 class="title text-light">Want to work with me?</h6>
+                    <p class="m-0 text-light">Always feel Free to Contact & Hire me</p>
+                </div>
+                <div class="col-sm offset-sm-2 offset-md-3">
+                    <button class="btn btn-lg my-font btn-light rounded">Hire Me</button>
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of section -->
+
+<!-- courses section -->
+<section class="section text-center" id="courses">
+    <div class="container">
+        <p class="section-subtitle">Where I Learned</p>
+        <h6 class="section-title mb-6">Courses</h6>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <div class="course-card p-4 shadow-sm mb-4">
+                    <h5 class="mb-2">Full Stack Web Development Course</h5>
+                    <p class="text-muted mb-1"><strong>Institution:</strong> DARE ACADEMY, Jordan</p>
+                    <p class="text-muted mb-1"><strong>Duration:</strong> April 2024 – September 2024 (300 hours)</p>
+                    <p class="text-muted">Learned .NET Core and Angular. Built and deployed several full-stack web applications.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+    <!-- contact section -->
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <p class="section-subtitle">How can you communicate?</p>
+            <h6 class="section-title mb-5">Contact Me</h6>
+            <!-- contact form -->
+            <form action="" class="contact-form col-md-10 col-lg-8 m-auto">
+                <div class="form-row">
+                    <div class="form-group col-sm-6">
+                        <input type="text" size="50" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <input type="email" class="form-control" placeholder="Enter Email" requried>
+                    </div>
+                    <div class="form-group col-sm-12">
+                        <textarea name="comment" id="comment" rows="6" class="form-control"
+                            placeholder="Write Something"></textarea>
+                    </div>
+                    <div class="form-group col-sm-12 mt-3">
+                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">
+                    </div>
+                </div>
+            </form><!-- end of contact form -->
+        </div><!-- end of container -->
+    </section><!-- end of contact section -->
+
+  <!-- footer -->
+<div class="container">
+    <footer class="footer">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="mb-0">
+                    &copy; <script>document.write(new Date().getFullYear())</script> 
+                    <a href="http://www.devcrud.com">DevCRUD</a> | 
+                    <a href="https://themewagon.com">ThemeWagon</a>
+                </p>
+                <p class="mb-0">
+                    📞 Phone: +962-790293841  
+                    <br>📧 Email: gofranalkesbah@gmail.com  
+                    <br>📍 Address: Amman, Tabarbour
+                </p>
+            </div>
+            <div class="col-md-6 text-right">
+                <div class="social-links m-auto ml-sm-auto">
+                    <a href="https://github.com/Gofranalkesbah" class="link" target="_blank">
+                        <i class="ti-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/gofran-al-kesbah" class="link" target="_blank">
+                        <i class="ti-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div> <!-- end of page footer -->
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
+
+</body>
+
+</html>
